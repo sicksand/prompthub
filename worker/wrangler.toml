@@ -10,4 +10,4 @@ bucket_name = "prompt-gallery-media"
 # KV namespace for metadata
 [[kv_namespaces]]
 binding = "META"
-id = "prompt-gallery-meta"
+id = "1488831066704742b4576d048257fae9"
