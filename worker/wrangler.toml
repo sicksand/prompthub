@@ -1,0 +1,13 @@
+name = "prompt-gallery-api"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+# R2 bucket for media storage
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "prompt-gallery-media"
+
+# KV namespace for metadata
+[[kv_namespaces]]
+binding = "META"
+id = "prompt-gallery-meta"
